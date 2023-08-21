@@ -1,5 +1,5 @@
-html,
-body {
+/*html,
+ body {
     height: 100%;
     font-family: sans-serif;
     width: 100%;
@@ -13,9 +13,9 @@ body {
 }
 
 .nav-bar {
-    flex: 1;
+    flex: 1;*/
     /* margin: auto; */
-    background-color: #202020;
+/*    background-color: #202020;
     color: white;
     text-align: center;
     height: 100%;
@@ -24,9 +24,10 @@ body {
 
 .content {
     flex: 3;
-    margin: 10px;
+    margin: 10px;*/
     /* padding: 10px; */
-    height: 100%;
+/*
+height: 100%;
     font-size: 112%;
 }
 
@@ -45,4 +46,60 @@ body {
 
 .nav-bar ul {
     list-style-type: none;
+}*/
+html, body {
+    height: 100%;
+    font-family: 'Open Sans', sans-serif; /* Example Google Font */
+    width: 100%;
+    margin: 0px;
+    color: #333; /* Dark grey text */
 }
+
+.base {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.nav-bar {
+    flex: 1;
+    background-color: #2c3e50; /* Dark blue color */
+    color: white;
+    text-align: center;
+    height: 100%;
+    font-size: 100%;
+    padding: 20px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: inherit;
+    padding: 10px;
+    display: block;
+}
+
+.nav-bar a:hover {
+    background-color: #34495e; /* Slightly darker blue on hover */
+}
+
+.nav-bar .image {
+    margin-top: 20px;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.content {
+    flex: 3;
+    margin: 10px;
+    height: 100%;
+    font-size: 112%;
+    line-height: 1.6; /* Improved readability */
+}
+
+.hello {
+    max-width: 800px;
+}
+
