@@ -33,6 +33,7 @@ height: 100%;
 
 .hello {
     max-width: 800px;
+    font-family: 'Arial', sans-serif;
 }
 
 .nav-bar a {
